@@ -2,13 +2,14 @@
 
 def position_taken(board, index)
 
-if board[index] == ""
-  false
-elsif board[index] == " "
-  false
-elsif board[index] == index.nil
-  false
-else
-  true 
+  if board[index] == ""
+    false
+  elsif board[index] == " "
+    false
+  elsif board[index] == index.nil
+    false
+  else
+    true
+  end
 
 end
